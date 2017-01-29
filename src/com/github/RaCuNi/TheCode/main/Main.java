@@ -10,11 +10,47 @@ public class Main {
 		System.out.println("Then Summarizer will Summarize those.");
 		System.out.println("Do it!");
 		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
-		int b = sc.nextInt();
 		DoSummarize sum = new DoSummarize();
-		int y = sum.sum(a, b);
-		System.out.println("a:"+a+" "+"b:"+b+" "+"return:"+y);
+		int i = sc.nextInt();
+		switch(i){
+		case 1: {
+			int a = sc.nextInt();
+			int y = sum.sum(a);
+			System.out.println(y);
+			break;
+		}
+		
+		case 2: {
+			int a2 = sc.nextInt();
+			int b2 = sc.nextInt();
+			int y2 = sum.sum(a2, b2);
+			System.out.println(y2);
+			break;
+		}
+		
+		case 3: {
+			int a3 = sc.nextInt();
+			int b3 = sc.nextInt();
+			int c3 = sc.nextInt();
+			int y3 = sum.sum(a3, b3, c3);
+			System.out.println(y3);
+			break;
+		}
+		
+		case 4: {
+			int a4 = sc.nextInt();
+			int b4 = sc.nextInt();
+			int c4 = sc.nextInt();
+		    int d4 = sc.nextInt();
+		    int y4 = sum.sum(a4, b4, c4, d4);
+		    System.out.println(y4);
+		    break;
+		}
+		
+		default: {
+			System.out.println("You should type integer from 1 to 4.");
+		  }
+		}
 	}
 
 }
