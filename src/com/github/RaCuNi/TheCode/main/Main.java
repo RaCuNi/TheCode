@@ -9,6 +9,7 @@ public class Main {
 		System.out.println("(WARNING) Input MUST be 'INTEGER'.");
 		System.out.println("Then Summarizer will Summarize those.");
 		System.out.println("Do it!");
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		DoSummarize sum = new DoSummarize();
 		int i = sc.nextInt();
