@@ -1,23 +1,18 @@
 package com.github.RaCuNi.TheCode.main;
 
 public class DoSummarize {
-	public int sum(int a){
-		int y = a;
-		return y; 
-	}
-	
-	public int sum(int a, int b){
-		int y = a+b;
+	public long sum(long a, long b){
+		long y = a+b;
 		return y;
 	}
 	
-	public int sum(int a, int b, int c){
-		int y = a+b+c;
+	public long sum(long a, long b, long c){
+		long y = a+b+c;
 		return y;
 	}
 	
-	public int sum(int a, int b, int c, int d){
-		int y = a+b+c+d;
+	public long sum(long a, long b, long c, long d){
+		long y = a+b+c+d;
 		return y;
 	}
 

@@ -14,42 +14,35 @@ public class Main {
 		DoSummarize sum = new DoSummarize();
 		int i = sc.nextInt();
 		switch(i){
-		case 1: {
-			int a = sc.nextInt();
-			int y = sum.sum(a);
+		case 2: {
+			long a = sc.nextLong();
+			long b = sc.nextLong();
+			long y = sum.sum(a, b);
 			System.out.println(y);
 			break;
 		}
 		
-		case 2: {
-			int a2 = sc.nextInt();
-			int b2 = sc.nextInt();
-			int y2 = sum.sum(a2, b2);
+		case 3: {
+			long a2 = sc.nextLong();
+			long b2 = sc.nextLong();
+			long c2 = sc.nextLong();
+			long y2 = sum.sum(a2, b2, c2);
 			System.out.println(y2);
 			break;
 		}
 		
-		case 3: {
-			int a3 = sc.nextInt();
-			int b3 = sc.nextInt();
-			int c3 = sc.nextInt();
-			int y3 = sum.sum(a3, b3, c3);
-			System.out.println(y3);
-			break;
-		}
-		
 		case 4: {
-			int a4 = sc.nextInt();
-			int b4 = sc.nextInt();
-			int c4 = sc.nextInt();
-		    int d4 = sc.nextInt();
-		    int y4 = sum.sum(a4, b4, c4, d4);
-		    System.out.println(y4);
+			long a3 = sc.nextLong();
+			long b3 = sc.nextLong();
+			long c3 = sc.nextLong();
+		    long d3 = sc.nextLong();
+		    long y3 = sum.sum(a3, b3, c3, d3);
+		    System.out.println(y3);
 		    break;
 		}
 		
 		default: {
-			System.out.println("You should type integer from 1 to 4.");
+			System.out.println("You should type integer from 2 to 4.");
 		  }
 		}
 	}
