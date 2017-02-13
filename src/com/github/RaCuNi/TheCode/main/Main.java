@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 		System.out.println("Let's start Summarize!");
-		System.out.println("Type first 'Integer(Ex>1,2,3,4,5 ...)' and second 'Integer'.");
+		System.out.println("First, you should type integer from 2 to 4.");
+		System.out.println("2: Summarize two Int.\n3: Summarize three Int.\n4: Summarize four Int.");
+		System.out.println("Second, type integers.");
 		System.out.println("(WARNING) Input MUST be 'INTEGER'.");
 		System.out.println("Then Summarizer will Summarize those.");
 		System.out.println("Do it!");
